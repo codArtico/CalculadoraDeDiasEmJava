@@ -33,12 +33,9 @@ public class Data {
 	public void setAno(int ano) {
 		this.ano = ano;
 	}
-
-	
 	public LocalDate getData() {
 		return data;
 	}
-
 	public void setData(LocalDate data) {
 		this.data = data;
 	}
@@ -47,6 +44,4 @@ public class Data {
 	public String toString() {
 		return dia + "/" + mes + "/" + ano;
 	}
-
-	
 }
